@@ -1,0 +1,67 @@
+1. A method that returns the sum of two integers.
+   Casual
+   -------
+  -Create a method that takes two numbers as arguments.
+  -Ask the user for the first number and store it in a variable as an integer.
+  -Ask the user for the second number and store it in a variable as an integer.
+  -Add the two numbers together and assign to a variable.
+  -Print the variable.
+
+  Formal
+  -------
+  START
+
+  Method definition:
+    GET first_number
+    SET first_number
+    
+    GET second_number
+    SET second_number
+
+    SET result = first_number plus second_number
+    PRINT result
+  END
+
+
+2. A method that takes an array of strings, and returns a string that is all those strings
+   concatenated together.
+   Casual
+   -------
+   -Define a method that takes an array of strings as an argument.
+   -Iterate through the array as long as there is another element.
+   -Add the value of each index of the array to the same variable.
+   -Concatenate each index value within the variable.
+
+   Formal
+   -------
+   START
+    method definition
+    count = 0
+    WHILE count < length of array
+      SET string = string + array[index]
+      count += 1
+    END
+    PRINT string
+   END
+
+3. A method that takes an array of integers, and returns a new array with every other 
+   element.
+   Casual
+   ------
+   -Define a method that takes a single array argument.
+   -Iterate through the array selecting every other element.
+   -Place every other element from old array into a new array.
+   -Print out the new array.
+
+   Formal
+   -------
+   START
+    method definition
+    count = length of array
+    WHILE count > 0
+      SET new_array = array_index
+        IF array_index != 0 && array_index !% 0
+      END
+    END
+    PRINT new_array
+   END
