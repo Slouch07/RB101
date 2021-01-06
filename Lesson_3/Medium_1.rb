@@ -110,7 +110,7 @@
 # puts "result is #{result}"
 
 # My A:
-# The limit variable is out of the method's scope and need to be inititated internally.
+# The limit variable is out of the method's scope and needs to be inititated internally.
 
 # def fib(first_num, second_num)
 #   limit = 15

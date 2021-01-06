@@ -8,8 +8,8 @@
 # greeting
 
 # My A:
-# I would expect 'hello world' as everything in Ruby is truthy except for 'nil' and 'false'. Here, I believe 'if false' will
-# evaluate to 'true' thus returning 'hello 'world. (Review)
+# I would expect nothing to happen, maybe an error to be thrown because the if statement does not assign
+# 'hello world' to the greeting variable.
 
 # LS A:
 # greeting is nil here, and no "undefined method or local variable" exception is thrown.
@@ -43,21 +43,21 @@
 # What will be printed by each of these code groups?
 
 # A:
-def mess_with_vars(one, two, three)
-  one = two
-  two = three
-  three = one
-end
+# def mess_with_vars(one, two, three)
+#   one = two
+#   two = three
+#   three = one
+# end
 
-one = "one"
-two = "two"
-three = "three"
+# one = "one"
+# two = "two"
+# three = "three"
 
-mess_with_vars(one, two, three)
+# mess_with_vars(one, two, three)
 
-puts "one is: #{one}"
-puts "two is: #{two}"
-puts "three is: #{three}"
+# puts "one is: #{one}"
+# puts "two is: #{two}"
+# puts "three is: #{three}"
 
 # My A:
 # 'one'
