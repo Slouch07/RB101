@@ -9,6 +9,10 @@ def ascii_value(string)
   ascii_array.sum
 end
 
+# def ascii_value(string)
+#   string.chars.map { |x| x.ord }.sum
+# end
+
 # Further Exploration
 # --------------------
 # char.ord.chr == char
