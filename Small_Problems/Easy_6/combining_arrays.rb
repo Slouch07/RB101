@@ -20,8 +20,13 @@
   # ensure no duplicate values are present
 
 def merge(arr1, arr2)
-  new_arr = arr1.merge(arr2)
+  arr1.union(arr2)
 end
+
+# Further Explorations
+# def merge(arr1, arr2)
+#   (arr1 + arr2).uniq
+# end
 
 # Test Cases 
 p merge([1, 3, 5], [3, 6, 9]) #== [1, 3, 5, 6, 9]
